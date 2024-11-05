@@ -211,7 +211,7 @@ a:active {
 
 .container {
   width: 960px;
-  justify-content: space-evenly;
+  margin: 0 auto;
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
