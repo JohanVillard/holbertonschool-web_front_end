@@ -230,7 +230,7 @@ a:active {
   margin-left: auto;
 }
 
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
