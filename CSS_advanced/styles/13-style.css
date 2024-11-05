@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  color: var(text-color);
+  color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
@@ -12,20 +12,19 @@ body {
 }
 
 a[href] {
-  color: var(text-color);
+  color: var(--text-color);
   text-decoration: none;
+}
+a[href]:visited {
+  font-style: italic;
+}
 
-  &:visited {
-    font-style: italic;
-  }
+a[href]:hover {
+  text-decoration: underline;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
-
-  &:active {
-    background-color: var(--color-light-grey);
-  }
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
