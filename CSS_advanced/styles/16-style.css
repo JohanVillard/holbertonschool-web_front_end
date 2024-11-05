@@ -211,8 +211,7 @@ a:active {
 
 .container {
   width: 960px;
-  margin-left: 480px;
-  margin-right: 480px;
+  margin: 0 auto;
 }
 
 :root {
