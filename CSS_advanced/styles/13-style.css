@@ -14,18 +14,18 @@ body {
 a[href] {
   color: var(text-color);
   text-decoration: none;
-}
 
-a[href]:visited {
-  font-style: italic;
-}
+  &:visited {
+    font-style: italic;
+  }
 
-a[href]:hover {
-  text-decoration: underline;
-}
+  &:hover {
+    text-decoration: underline;
+  }
 
-a[href]:active {
-  background-color: var(--color-light-grey);
+  &:active {
+    background-color: var(--color-light-grey);
+  }
 }
 
 .visually-hidden {
